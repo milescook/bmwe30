@@ -17,14 +17,14 @@ See https://wiki.speeduino.com/en/wiring/system
 
 # Speeduino ECU pins
 Pin #	Function
-* 1	Injector 1 - Pin 1/2
-* 2	Injector 2 - Pin 1/2
-* 3	Injector 3 - Pin 1/2
-* 4	Injector 3 - Pin 2/2
+* 1	Injector 1 - Pin 1/2 -> *Injector 1*
+* 2	Injector 2 - Pin 1/2 -> *Injector 4*
+* 3	Injector 3 - Pin 1/2 -> *Injector 2*
+* 4	Injector 3 - Pin 2/2 -> *Injector 6*
 * 5	Injector 4 - Pin 1/2
 * 6	Injector 4 - Pin 2/2
-* 7	Ignition 1
-* 8	Ignition 4
+* 7	Ignition 1 -> *Coil on plug 1 & 2*
+* 8	Ignition 4 -> *Unused*
 * 9	Ground
 * 10	Ground
 * 11	MAP Sensor (0v-5v) *N/A - using onboard sensor*
@@ -38,7 +38,7 @@ Pin #	Function
 * 19	Coolant (CLT) -> *Blue temp sender*
 * 20	Inlet Air Temp (IAT) -> *New IAT Sensor*
 * 21	O2 Sensor -> *Exhaust Lambda Sensor*
-* 22	TPS input -> *Variable TPS*
+* 22	TPS input -> *Variable Auto BMW TPS*
 * 23	Ground
 * 24	Cam Input / VR2+
 * 25	Crank Input / VR1+
@@ -49,11 +49,11 @@ Pin #	Function
 * 30	Idle Stepper 2A
 * 31	Idle Stepper 1A
 * 32	Idle Stepper 1B
-* 33	Ignition 3
-* 34	Ignition 2
+* 33	Ignition 3 -> *Coil on plug 5 & 6*
+* 34	Ignition 2 -> *Coil on plug 3 & 4*
 * 35	Boost *N/A No snail for us, yet....*
 * 36	Idle 2 (For use with 3 wire idle valves)
 * 37	PWM Idle
 * 38	VVT
-* 39	Injector 2 - Pin 2/2
-* 40	Injector 1 - Pin 2/2
+* 39	Injector 2 - Pin 2/2 -> *Injector 3*
+* 40	Injector 1 - Pin 2/2 -> *Injector 5*
