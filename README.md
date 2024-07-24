@@ -16,7 +16,8 @@ See https://wiki.speeduino.com/en/wiring/system
 
 
 # Speeduino ECU pins
-Pin #	Function
+This is a list of speedunio pins and on the other side of the connector <=> which ECU output and wire colour they corespond to. Most keep the original pin numbers but not all.
+Pin #,Function, <=> ECU connector pin, ECU harness wire colour
 * 1	Injector 1 - Pin 1/2 -> *Injector 1* <=> 1 Yellow
 * 2	Injector 2 - Pin 1/2 -> *Injector 4* <=> 2 Blue
 * 3	Injector 3 - Pin 1/2 -> *Injector 2* <=> 3 Green
