@@ -37,8 +37,8 @@ This is a list of speedunio pins and on the other side of the connector <=> whic
 * 16	Proto Area 3 (0.4.4b+ Fuel Pump)
 * 17	Proto Area 4 (0.4.4b+ Tachometer)
 * 18	Proto Area 5 (0.4.4b+ Clutch)
-* 19	Coolant (CLT) -> *Blue temp sender*
-* 20	Inlet Air Temp (IAT) -> *New IAT Sensor*
+* 19	Coolant (CLT) -> *Blue temp sender* <=> 19 Green
+* 20	Inlet Air Temp (IAT) -> *New IAT Sensor* <=> 20 White
 * 21	O2 Sensor -> *Exhaust Lambda Sensor*
 * 22	TPS input -> *Variable Auto BMW TPS*
 * 23	Ground
