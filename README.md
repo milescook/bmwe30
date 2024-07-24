@@ -40,7 +40,7 @@ This is a list of speedunio pins and on the other side of the connector <=> whic
 * 19	Coolant (CLT) -> *Blue temp sender* <=> 19 Green
 * 20	Inlet Air Temp (IAT) -> *New IAT Sensor* <=> 20 White
 * 21	O2 Sensor -> *Exhaust Lambda Sensor*
-* 22	TPS input -> *Variable Auto BMW TPS*
+* 22	TPS input -> *Variable Auto BMW TPS* <=> 22 Black
 * 23	Ground
 * 24	Cam Input / VR2+
 * 25	Crank Input / VR1+
