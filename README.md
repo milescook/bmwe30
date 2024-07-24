@@ -17,19 +17,19 @@ See https://wiki.speeduino.com/en/wiring/system
 
 # Speeduino ECU pins
 Pin #	Function
-* 1	Injector 1 - Pin 1/2 -> *Injector 1*
-* 2	Injector 2 - Pin 1/2 -> *Injector 4*
-* 3	Injector 3 - Pin 1/2 -> *Injector 2*
-* 4	Injector 3 - Pin 2/2 -> *Injector 6*
-* 5	Injector 4 - Pin 1/2
-* 6	Injector 4 - Pin 2/2
-* 7	Ignition 1 -> *Coil on plug 1 & 2*
+* 1	Injector 1 - Pin 1/2 -> *Injector 1* <=> 1 Yellow
+* 2	Injector 2 - Pin 1/2 -> *Injector 4* <=> 2 Blue
+* 3	Injector 3 - Pin 1/2 -> *Injector 2* <=> 3 Green
+* 4	Injector 3 - Pin 2/2 -> *Injector 6* <=> 4 White
+* 5	Injector 4 - Pin 1/2 - Unused
+* 6	Injector 4 - Pin 2/2 - Unused
+* 7	Ignition 1 -> *Coil on plug 1 & 2* <=> 7 Yellow
 * 8	Ignition 4 -> *Unused*
-* 9	Ground
+* 9	Ground <=> 8 Blue
 * 10	Ground
 * 11	MAP Sensor (0v-5v) *N/A - using onboard sensor*
-* 12	Ground
-* 13	5v
+* 12	Ground 
+* 13	5v <=> 13 Red
 * 14	Proto Area 1 (0.4.4b+ Flex Sensor)
 * 15	Proto Area 2 (0.4.4b+ Fan)
 * 16	Proto Area 3 (0.4.4b+ Fuel Pump)
@@ -55,5 +55,5 @@ Pin #	Function
 * 36	Idle 2 (For use with 3 wire idle valves)
 * 37	PWM Idle
 * 38	VVT
-* 39	Injector 2 - Pin 2/2 -> *Injector 3*
-* 40	Injector 1 - Pin 2/2 -> *Injector 5*
+* 39	Injector 2 - Pin 2/2 -> *Injector 3* <=> 5 Red
+* 40	Injector 1 - Pin 2/2 -> *Injector 5* <=> 6 Black
