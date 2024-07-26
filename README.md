@@ -19,10 +19,10 @@ See https://wiki.speeduino.com/en/wiring/system
 This is a list of speedunio pins and on the other side of the connector <=> which ECU output and wire colour they corespond to. Most keep the original pin numbers but not all.
 
 ## Pin #,Function, <=> ECU connector pin, ECU harness wire colour
-* 1	Injector 1 - Pin 1/2 -> *Injector 1* <=> 1 Yellow
-* 2	Injector 2 - Pin 1/2 -> *Injector 4* <=> 2 Blue
-* 3	Injector 3 - Pin 1/2 -> *Injector 2* <=> 3 Green
-* 4	Injector 3 - Pin 2/2 -> *Injector 6* <=> 4 White
+* 1	Injector 1 - Pin 1/2 -> *Injector 1&6* <=> 1 Yellow
+* 2	Injector 2 - Pin 1/2 -> *Injector 2&5* <=> 2 Blue
+* 3	Injector 3 - Pin 1/2 -> *Injector 3&4* <=> 3 Green
+* 4	Injector 3 - Pin 2/2 -> *Injector 3&4* <=> 4 White
 * 5	Injector 4 - Pin 1/2 - Unused
 * 6	Injector 4 - Pin 2/2 - Unused
 * 7	Ignition 1 -> *Coil on plug 1 & 2* <=> 7 Yellow
@@ -57,5 +57,5 @@ This is a list of speedunio pins and on the other side of the connector <=> whic
 * 36	Idle 2 (For use with 3 wire idle valves)
 * 37	PWM Idle
 * 38	VVT
-* 39	Injector 2 - Pin 2/2 -> *Injector 3* <=> 5 Red
-* 40	Injector 1 - Pin 2/2 -> *Injector 5* <=> 6 Black
+* 39	Injector 2 - Pin 2/2 -> *Injector 2&5* <=> 5 Red
+* 40	Injector 1 - Pin 2/2 -> *Injector 1&6* <=> 6 Black
