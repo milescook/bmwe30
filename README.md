@@ -39,7 +39,7 @@ This is a list of speedunio pins and on the other side of the connector <=> whic
 * 18	Proto Area 5 (0.4.4b+ Clutch)
 * 19	Coolant (CLT) -> *Blue temp sender* <=> 19 Green
 * 20	Inlet Air Temp (IAT) -> *New IAT Sensor* <=> 20 White
-* 21	O2 Sensor -> *Exhaust Lambda Sensor*
+* 21	O2 Sensor -> *Exhaust Lambda Sensor* <=> 21 Blue
 * 22	TPS input -> *Variable Auto BMW TPS* <=> 22 Black
 * 23	Ground
 * 24	Cam Input / VR2+
@@ -65,11 +65,20 @@ This is a list of speedunio pins and on the other side of the connector <=> whic
 ## Injectors
 ### Pin no, Injectors
 
-1 Yellow <=> Injector coils 1 & 6
-2 Blue <=> Injector coils 2 & 5
-3 Green <=> Injector coils 3 & 4
-4 White <=> Injector coils 1 & 6
-39 Red <=> Injector coils 2 & 5
-40 Black <=> Injector coils 3 & 4
+* 1 Yellow <=> Injector coils 1 & 6
+* 2 Blue <=> Injector coils 2 & 5
+* 3 Green <=> Injector coils 3 & 4
+* 4 White <=> Injector coils 1 & 6
+* 5 Red <=> Injector coils 2 & 5
+* 6 Black <=> Injector coils 3 & 4
+
+## Sensors
+### Pin no, sensor
+* 19 Green <=> Blue coolant temp
+* 20 White <=> Inlet air temp
+* 21 Blue <=> Lambda o2
+* 22 Black <=> TPS
+
+## Ignition
 
 
