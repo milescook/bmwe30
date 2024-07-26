@@ -59,3 +59,17 @@ This is a list of speedunio pins and on the other side of the connector <=> whic
 * 38	VVT
 * 39	Injector 2 - Pin 2/2 -> *Injector 2&5* <=> 5 Red
 * 40	Injector 1 - Pin 2/2 -> *Injector 1&6* <=> 6 Black
+
+
+# ECU Harness wiring
+## Injectors
+### Pin no, Injectors
+
+1 Yellow <=> Injector coils 1 & 6
+2 Blue <=> Injector coils 2 & 5
+3 Green <=> Injector coils 3 & 4
+4 White <=> Injector coils 1 & 6
+39 Red <=> Injector coils 2 & 5
+40 Black <=> Injector coils 3 & 4
+
+
