@@ -31,7 +31,7 @@ This is a list of speedunio pins and on the other side of the connector <=> whic
 * 10	Ground
 * 11	MAP Sensor (0v-5v) *N/A - using onboard sensor*
 * 12	Ground 
-* 13	5v <=> 13 Red
+* 13	5v - Unused
 * 14	Proto Area 1 (0.4.4b+ Flex Sensor)
 * 15	Proto Area 2 (0.4.4b+ Fan)
 * 16	Proto Area 3 (0.4.4b+ Fuel Pump)
@@ -41,9 +41,9 @@ This is a list of speedunio pins and on the other side of the connector <=> whic
 * 20	Inlet Air Temp (IAT) -> *New IAT Sensor* <=> 20 White
 * 21	O2 Sensor -> *Exhaust Lambda Sensor* <=> 21 Blue
 * 22	TPS input -> *Variable Auto BMW TPS* <=> 22 Black
-* 23	Ground
+* 23	Ground <=> Crank ground - 23 shielded
 * 24	Cam Input / VR2+
-* 25	Crank Input / VR1+
+* 25	Crank Input / VR1+ - 25 shielded
 * 26	VR2- (Not used for hall sensor)
 * 27	VR1- (Not used for hall sensor)
 * 28	5v
@@ -72,13 +72,24 @@ This is a list of speedunio pins and on the other side of the connector <=> whic
 * 5 Red <=> Injector coils 2 & 5
 * 6 Black <=> Injector coils 3 & 4
 
+## Ignition
+* 7 Yellow <=> Coil pack 1 & 2
+* 33 Green <=> Coil pack 3 & 4
+* 34 Blue <=> Coil pack 5 & 6
+
 ## Sensors
 ### Pin no, sensor
+* 8 Blue <=> Sensor Ground
 * 19 Green <=> Blue coolant temp
 * 20 White <=> Inlet air temp
 * 21 Blue <=> Lambda o2
 * 22 Black <=> TPS
+* 23 Shielded <=> CPS ground
+* 25 Shielded <=> CPS signal
 
-## Ignition
+
+## Power
+* 12 Black <=> Ground
+* 13 Red <=> 12v power
 
 
