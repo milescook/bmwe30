@@ -25,7 +25,7 @@ This is a list of speedunio pins and on the other side of the connector <=> whic
 * 4	Injector 3 - Pin 2/2 -> *Injector 3&4* <=> 4 White
 * 5	Injector 4 - Pin 1/2 - Unused
 * 6	Injector 4 - Pin 2/2 - Unused
-* 7	Ignition 1 -> *Coil on plug 1 & 2* <=> 7 Yellow
+* 7	Ignition 1 -> *Coil on plug 1 & 6* <=> 7 Yellow
 * 8	Ignition 4 -> *Unused*
 * 9	Ground <=> 8 Blue
 * 10	Ground
@@ -51,8 +51,8 @@ This is a list of speedunio pins and on the other side of the connector <=> whic
 * 30	Idle Stepper 2A
 * 31	Idle Stepper 1A
 * 32	Idle Stepper 1B
-* 33	Ignition 3 -> *Coil on plug 5 & 6*
-* 34	Ignition 2 -> *Coil on plug 3 & 4*
+* 33	Ignition 3 -> *Coil on plug 3 & 4*
+* 34	Ignition 2 -> *Coil on plug 2 & 5*
 * 35	Boost *N/A No snail for us, yet....*
 * 36	Idle 2 (For use with 3 wire idle valves)
 * 37	PWM Idle
@@ -73,9 +73,9 @@ This is a list of speedunio pins and on the other side of the connector <=> whic
 * 6 Black <=> Injector coils 3 & 4
 
 ## Ignition
-* 7 Yellow <=> Coil pack 1 & 2
+* 7 Yellow <=> Coil pack 1 & 6
 * 33 Green <=> Coil pack 3 & 4
-* 34 Blue <=> Coil pack 5 & 6
+* 34 Blue <=> Coil pack 2 & 5
 
 ## Sensors
 ### Pin no, sensor
