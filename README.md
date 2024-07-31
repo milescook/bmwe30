@@ -34,8 +34,8 @@ This is a list of speedunio pins and on the other side of the connector <=> whic
 * 13	5v - Unused
 * 14	Proto Area 1 (0.4.4b+ Flex Sensor)
 * 15	Proto Area 2 (0.4.4b+ Fan)
-* 16	Proto Area 3 (0.4.4b+ Fuel Pump)
-* 17	Proto Area 4 (0.4.4b+ Tachometer)
+* 16	Proto Area 3 (0.4.4b+ Fuel Pump) -> Fuel Pump Relay <=> 16 Yellow
+* 17	Proto Area 4 (0.4.4b+ Tachometer) -> AIM Dash Tacho <=> 17 Blue
 * 18	Proto Area 5 (0.4.4b+ Clutch)
 * 19	Coolant (CLT) -> *Blue temp sender* <=> 19 Green
 * 20	Inlet Air Temp (IAT) -> *New IAT Sensor* <=> 20 White
@@ -51,8 +51,8 @@ This is a list of speedunio pins and on the other side of the connector <=> whic
 * 30	Idle Stepper 2A
 * 31	Idle Stepper 1A
 * 32	Idle Stepper 1B
-* 33	Ignition 3 -> *Coil on plug 3 & 4*
-* 34	Ignition 2 -> *Coil on plug 2 & 5*
+* 33	Ignition 3 -> *Coil on plug 3 & 4* <=> Green
+* 34	Ignition 2 -> *Coil on plug 2 & 5* <=> White
 * 35	Boost *N/A No snail for us, yet....*
 * 36	Idle 2 (For use with 3 wire idle valves)
 * 37	PWM Idle
@@ -75,7 +75,7 @@ This is a list of speedunio pins and on the other side of the connector <=> whic
 ## Ignition
 * 7 Yellow <=> Coil pack 1 & 6
 * 33 Green <=> Coil pack 3 & 4
-* 34 Blue <=> Coil pack 2 & 5
+* 34 White <=> Coil pack 2 & 5
 
 ## Sensors
 ### Pin no, sensor
@@ -87,6 +87,9 @@ This is a list of speedunio pins and on the other side of the connector <=> whic
 * 23 Shielded <=> CPS ground
 * 25 Shielded <=> CPS signal
 
+## Others
+* 16 Yellow <=> Fuel pump relay
+* 17 Blue <=> AIM Dash Taco
 
 ## Power
 * 12 Black <=> Ground
