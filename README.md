@@ -1,5 +1,12 @@
-# bmwe30
+# BMW E30 M20B25 ECU
 Assortment of docs and diagrams for the race car ECU & dashboard conversion
+
+# Speeduino pins
+See [speeduino-pins.md](speeduino-pins.md)
+
+# New ECU Loom wiring
+See [ecu-pinout.md](ecu-pinout.md)
+
 
 # Shopping list
 ## ECU Wiring
@@ -13,11 +20,3 @@ See https://wiki.speeduino.com/en/wiring/system
 * IAT - https://diy-efi.co.uk/product/m12-iat-sensor
 * Coolant temp sensor - will use existing blue sender
 * Idle control valve -Will use existing ICV
-
-# Speeduino pins
-See [speeduino-pins.md](speeduino-pins.md)
-
-
-# ECU Loom wiring
-
-See [ecu-pinout.md](ecu-pinout.md)
