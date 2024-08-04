@@ -1,4 +1,6 @@
 # ECU Pinout
+* 34 pins on 4 rows, 9, 8, 9, 8. Pin number and wire colour (if present)
+
  [_1YE]  [_2BL]  [_3GR]  [_4WH]  [_5RD]  [_6BK]  [_7YE]  [_8BL]  [_9__]
 
 *  [10__]  [11__]  [12BK]  [13RD]  [14__]  [15__]  [16YE]  [17BL]  
