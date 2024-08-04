@@ -147,5 +147,3 @@ This is a list of speedunio pins and on the other side of the connector <=> whic
 * 12 Black <=> Ground
 * 13 Red <=> 12v power
 
-[Wiring diagram](E30 Loom.drawio.png)
-
