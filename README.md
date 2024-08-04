@@ -115,7 +115,7 @@ This is a list of speedunio pins and on the other side of the connector <=> whic
 
 # ECU Harness wiring
 
-See [ecu-pinout.md]
+See [ecu-pinout.md](ecu-pinout.md)
 
 ## Others
 * 16 Yellow <=> Fuel pump relay
