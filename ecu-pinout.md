@@ -10,7 +10,6 @@
 *  [27--]  [28--]  [29--]  [30--]  [31--]  [32--]  [33GR]  [34WH]
   
 ## Key
-* -- - Not used
 * YE - Yellow
 * BL - Blue
 * GR - Green
