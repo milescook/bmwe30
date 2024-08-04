@@ -18,15 +18,6 @@ See https://wiki.speeduino.com/en/wiring/system
 See [speeduino-pins.md](speeduino-pins.md)
 
 
-# ECU Harness wiring
+# ECU Loom wiring
 
 See [ecu-pinout.md](ecu-pinout.md)
-
-## Others
-* 16 Yellow <=> Fuel pump relay
-* 17 Blue <=> AIM Dash Taco
-
-## Power
-* 12 Black <=> Ground
-* 13 Red <=> 12v power
-
