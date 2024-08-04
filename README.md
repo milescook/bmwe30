@@ -114,30 +114,8 @@ This is a list of speedunio pins and on the other side of the connector <=> whic
 
 
 # ECU Harness wiring
-## Injectors
-### Pin no, Injectors
 
-* 1 Yellow <=> Injector coils 1 & 6
-* 2 Blue <=> Injector coils 2 & 5
-* 3 Green <=> Injector coils 3 & 4
-* 4 White <=> Injector coils 1 & 6
-* 5 Red <=> Injector coils 2 & 5
-* 6 Black <=> Injector coils 3 & 4
-
-## Ignition
-* 7 Yellow <=> Coil pack 1 & 6
-* 33 Green <=> Coil pack 3 & 4
-* 34 White <=> Coil pack 2 & 5
-
-## Sensors
-### Pin no, sensor
-* 8 Blue <=> Sensor Ground
-* 19 Green <=> Blue coolant temp
-* 20 White <=> Inlet air temp
-* 21 Blue <=> Lambda o2
-* 22 Black <=> TPS
-* 23 Shielded <=> CPS ground
-* 25 Shielded <=> CPS signal
+See [ecu-pinout.md]
 
 ## Others
 * 16 Yellow <=> Fuel pump relay
