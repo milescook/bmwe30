@@ -1,16 +1,16 @@
 # ECU Pinout
 * 34 pins on 4 rows, 9, 8, 9, 8. Pin number and wire colour (if present)
 
- [_1YE]  [_2BL]  [_3GR]  [_4WH]  [_5RD]  [_6BK]  [_7YE]  [_8BL]  [_9NA]
+ [_1YE]  [_2BL]  [_3GR]  [_4WH]  [_5RD]  [_6BK]  [_7YE]  [_8BL]  [_9--]
 
-*  [10NA]  [11NA]  [12BK]  [13RD]  [14NA]  [15NA]  [16YE]  [17BL]  
+*  [10--]  [11--]  [12BK]  [13RD]  [14--]  [15--]  [16YE]  [17BL]  
    
- [18NA]  [19BL]  [20WH]  [21BL]  [22BK]  [23SG]  [24NA]  [25SS]  [26NA] 
+ [18--]  [19BL]  [20WH]  [21BL]  [22BK]  [23SG]  [24--]  [25SS]  [26--] 
 
-*  [27NA]  [28NA]  [29NA]  [30NA]  [31NA]  [32NA]  [33GR]  [34WH]
+*  [27--]  [28--]  [29--]  [30--]  [31--]  [32--]  [33GR]  [34WH]
   
 ## Key
-* NA - Not used
+* -- - Not used
 * YE - Yellow
 * BL - Blue
 * GR - Green
