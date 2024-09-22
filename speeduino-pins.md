@@ -17,7 +17,7 @@ This is a list of speedunio pins and on the other side of the connector <=> whic
 * 7	Ignition 1 -> *Coil on plug 1 & 6* (28) <=> 7 Yellow
 * 8	Ignition 4 -> *Unused*
 * 9	Ground -> (26) <=> 8 Blue
-* 10	Ground
+* 10	Ground - Shield ground
 * 11	MAP Sensor (0v-5v) *N/A - using onboard sensor*
 * 12	TPS Ground 
 * 13	5v - TPS
