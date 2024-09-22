@@ -29,7 +29,7 @@
 * 7 Coil packs 1 & 6
 * 8 Ground (coolant, TPS)
 * 9 -
-* 10 -
+* 10 - CPS Shield ground
 * 11 -
 * 12 - TPS Ground
 * 13 - TPS Live
