@@ -29,7 +29,7 @@
 * 7 Coil packs 1 & 6
 * 8 Ground (coolant, TPS)
 * 9 -
-* 10 - CPS Shield ground
+* 10 - 
 * 11 -
 * 12 - TPS Ground
 * 13 - TPS Live
@@ -43,7 +43,7 @@
 * 21 - Lambda sensor
 * 22 - TPS
 * 23 - Crank position sensor ground
-* 24 -
+* 24 - CPS Shield ground
 * 25 - Crank position sensor signal
 * 26 - 12v Live
 * 27 - 12v Ground
