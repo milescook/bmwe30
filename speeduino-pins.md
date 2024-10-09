@@ -20,7 +20,7 @@ This is a list of functions (see https://wiki.speeduino.com/en/boards/V04) and E
 * 10	Ground - Shield ground <=> 24 White to shield
 * 11	MAP Sensor (0v-5v) *N/A - using onboard sensor*
 * 12	TPS Ground 
-* 13	5v - TPS
+* 13	5v power supply - TPS
 * 14	Proto Area 1 (0.4.4b+ Flex Sensor)
 * 15	Proto Area 2 (0.4.4b+ Fan)
 * 16	Proto Area 3 (0.4.4b+ Fuel Pump) -> Fuel Pump Relay (10) <=> 16 Yellow
