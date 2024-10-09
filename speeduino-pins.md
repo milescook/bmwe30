@@ -40,8 +40,8 @@ This is a list of functions (see https://wiki.speeduino.com/en/boards/V04) and E
 * 30	Idle Stepper 2A
 * 31	Idle Stepper 1A
 * 32	Idle Stepper 1B
-* 33	Ignition 3 -> *Coil on plug 3 & 4* (25) <=> Green
-* 34	Ignition 2 -> *Coil on plug 2 & 5* (27) <=> White
+* 33	Ignition 3 -> *Coil on plug 3 & 4* (25) <=> 33 Green
+* 34	Ignition 2 -> *Coil on plug 2 & 5* (27) <=> 34 White
 * 35	Boost *N/A No snail for us, yet....*
 * 36	Idle 2 (For use with 3 wire idle valves)
 * 37	PWM Idle
