@@ -7,7 +7,7 @@
    
    [18--]  [19BL]  [20WH]  [21BL]  [22BK]  [23SG]  [24--]  [25SS]  
 
- [26RD] [27BK] [28--]  [29--]  [30GR]  [31--]  [32WH]  [33GR]  [34WH]
+ [26RD] [27BK] [28--]  [29--]  [30GR]  [31RD]  [32WH]  [33GR]  [34WH]
   
 ## Key
 * YE - Yellow
@@ -49,8 +49,8 @@
 * 27 - 12v Ground
 * 28 - 
 * 29 - 
-* 30 - Spare
-* 31 - Oil pressure switch OUT
+* 30 - Oil pressure switch OUT
+* 31 - Spare
 * 32 - Oil pressure switch IN
 * 33 - Coil packs 3 & 4
 * 34 - Coil packs 2 & 5
