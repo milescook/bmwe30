@@ -27,7 +27,7 @@
 * 5 Injectors 2 & 5
 * 6 Injectors 3 & 4
 * 7 Coil packs 1 & 6
-* 8 Ground (coolant, TPS)
+* 8 Ground (coolant, iat, lambda)
 * 9 -
 * 10 - 
 * 11 -
@@ -41,7 +41,7 @@
 * 19 - Coolant temp sensor
 * 20 - Inlet temp sensor
 * 21 - Lambda sensor
-* 22 - TPS
+* 22 - TPS signal
 * 23 - Crank position sensor ground
 * 24 - CPS Shield ground
 * 25 - Crank position sensor signal
