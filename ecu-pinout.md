@@ -49,8 +49,8 @@
 * 27 - 12v Ground
 * 28 - 
 * 29 - 
-* 30 - Oil pressure switch OUT
-* 31 - Spare
+* 30 - Spare
+* 31 - Oil pressure switch OUT
 * 32 - Oil pressure switch IN
 * 33 - Coil packs 3 & 4
 * 34 - Coil packs 2 & 5
