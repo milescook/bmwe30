@@ -1,5 +1,5 @@
-# Speeduino ECU pins
-This is a list of speedunio pins and on the other side of the connector <=> which ECU output and wire colour they corespond to. Most keep the original pin numbers but not all.
+# ECU pins plug
+This is a list of functions (see https://wiki.speeduino.com/en/boards/V04) and ECU connector pins - not all correspond to the Speeduino output pins
 
 
 
