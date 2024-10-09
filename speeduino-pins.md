@@ -16,7 +16,7 @@ This is a list of functions (see https://wiki.speeduino.com/en/boards/V04) and E
 * 6	Injector 4 - Pin 2/2 - Unused
 * 7	Ignition 1 -> *Coil on plug 1 & 6* (28) <=> 7 Yellow
 * 8	Ignition 4 -> *Unused*
-* 9	Ground Cooland, TPS -> (26) <=> 8 Blue
+* 9	Ground coolant, iat, lambda -> (26) <=> 8 Blue
 * 10	Ground - Shield ground <=> 24 White to shield
 * 11	MAP Sensor (0v-5v) *N/A - using onboard sensor*
 * 12	TPS Ground 
