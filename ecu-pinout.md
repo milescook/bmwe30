@@ -50,7 +50,7 @@
 * 28 - 
 * 29 - 
 * 30 - Spare
-* 31 - Oil pressure switch OUT
-* 32 - Oil pressure switch IN
+* 31 - Oil pressure switch IN
+* 32 - Oil pressure switch OUT dash
 * 33 - Coil packs 3 & 4
 * 34 - Coil packs 2 & 5
