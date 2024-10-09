@@ -50,7 +50,7 @@
 * 28 - 
 * 29 - 
 * 30 -
-* 31 -
-* 32 -
+* 31 - Oil pressure switch OUT
+* 32 - Oil pressure switch IN
 * 33 - Coil packs 3 & 4
 * 34 - Coil packs 2 & 5
