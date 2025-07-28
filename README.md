@@ -20,3 +20,6 @@ See https://wiki.speeduino.com/en/wiring/system
 * IAT - https://diy-efi.co.uk/product/m12-iat-sensor
 * Coolant temp sensor - will use existing blue sender
 * Idle control valve -Will use existing ICV
+
+Stuff
+https://www.r3vlimited.com/board/forum/e30-technical-forums/engine-drivetrain/m42/366658-megasquirt-pinout-to-stock-ecu
