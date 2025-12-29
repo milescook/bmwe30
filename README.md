@@ -7,6 +7,8 @@ See [speeduino-pins.md](speeduino-pins.md)
 # New ECU Loom wiring
 See [ecu-pinout.md](ecu-pinout.md)
 
+# Good resource
+See https://github.com/EFI-Customs/Motronic-1.3-Speeduino-Compatible-Project?tab=readme-ov-file
 
 # Shopping list
 ## ECU Wiring
