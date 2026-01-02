@@ -1,4 +1,4 @@
-# How to map standard motronic 1.3 harness to speeduino pins
+# How to map standard motronic 1.3 harness to speeduino pins (Work in progress)
 
 See https://wiki.speeduino.com/en/boards/V04 for Speeduino pins.
 
