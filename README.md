@@ -1,10 +1,13 @@
-# BMW E30 M20B25 ECU
+# BMW E30 M20 Motronic 1.3 ECU
 Assortment of docs and diagrams for the race car ECU & dashboard conversion
 
-# Speeduino pins
+# Motronic 1.3 harness <-> Speeduino pin assignment 
+See [motronic-speeduino-map.md](speeduino-motronic-speeduino-map.md)
+
+# Speeduino pins - ON HOLD (using a stock Motronic harness for now to reduce risk)
 See [speeduino-pins.md](speeduino-pins.md)
 
-# New ECU Loom wiring
+# New ECU Loom wiring - ON HOLD (using a stock Motronic harness for now to reduce risk)
 See [ecu-pinout.md](ecu-pinout.md)
 
 # Good resource
