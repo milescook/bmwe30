@@ -2,7 +2,7 @@
 Assortment of docs and diagrams for the race car ECU & dashboard conversion
 
 # Motronic 1.3 harness <-> Speeduino pin assignment 
-See [motronic-speeduino-map.md](speeduino-motronic-speeduino-map.md)
+See [motronic-speeduino-map.md](motronic-speeduino-map.md)
 
 # Speeduino pins - ON HOLD (using a stock Motronic harness for now to reduce risk)
 See [speeduino-pins.md](speeduino-pins.md)
