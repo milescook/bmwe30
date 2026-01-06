@@ -12,20 +12,30 @@ For comparison, see the megasquirt map here For the megasquirt map see https://w
 
 # Pin assignments
 
-- Motronic pin  - Description - Speeduino Pin - Speeduino description - Purpose
+- Motronic pin  - Description - Speeduino Pin - Speeduino description - Purpose - IDC Pin
 - 1 - Ignition Coil Output (Channel 1 - 1.1) - 7 | Ignition 1 
 - 2 - Ground - 9 - Ground
 - 3 - Fuel Pump Relay Control - 16 - Proto Area 3 (0.4.4b+ Fuel Pump)
-- 4 - Idle out - 37 - PWM Idle
+- 4 - Idle out - 37 - PWM Idle - 33
 - 5 - NA
 - 6 - Tachometer output - 17 - Proto Area 4 (0.4.4b+ Tachometer) 
 - 7 - External Map Signal In - NA
 - 8 - Cam Hall Sensor Signal In - NA
+- 14 - GND (TPS) - 12 - Ground - TPS Ground - 18
 - 10 - Oxygen sensor (ground) - 10 - Ground
-- 22 - Idle out - 36 - PWM Idle 2
+- 22 - Idle out - 36 - PWM Idle 2 - 31
 - 28 - O2 input - 21 - O2 Sensor
+- 47 - CPS Signal - 25 - Crank Input / VR1+ - 9
+- 48 - CPS gnd - 27 VR1- - 13
+- 52 - Closed throttle - 22 - TPS Input - 3
+- 53 - WOT Input - 13 - TPS Live - 16
 
+# TPS
 
+E36 TPS Pin - E30 Pin - Purpose - Motronic pin - Speeduino Pin - IDC Pin
+- 1 - 2 - GND - 14 - 12 - 18
+- 2 - 1 - Signal - 52 - 22 - 3
+- 3 - 3 - Vref (5v) 53 - 13 - 16
 # Other motroinic pins
 
 - 18 - Constant 12V from Battery - 12v positive
