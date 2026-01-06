@@ -1,5 +1,7 @@
-# BMW E30 M20 Motronic 1.3 ECU
-Assortment of docs and diagrams for the race car ECU & dashboard conversion
+# Welcome
+
+Assortment of docs and diagrams for the race car ECU & dashboard conversion and notes mainly. For getting your 0.4.4c speeduino hooked up to an E30 with an M20 engine that was running Motronic 1.3. You can find a load of videos here [https://www.youtube.com/cookracinguk](https://www.youtube.com/cookracinguk)
+
 
 # Motronic 1.3 harness <-> Speeduino pin assignment 
 See [motronic-speeduino-map.md](motronic-speeduino-map.md)

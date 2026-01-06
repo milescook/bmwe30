@@ -1,13 +1,14 @@
 # How to map standard motronic 1.3 harness to speeduino pins (Work in progress)
 
-See https://wiki.speeduino.com/en/boards/V04 for Speeduino pins.
+WARNING: This is my wiring map, and WILL NOT work for you without harness modification. I'm re-purposing some of the ECU pins for a start, and changing the injector sub loom completely (from 2 batched to 6 individual but running ad 3 pairs). I'm trying to use as much of the ECU connector as possible without changing the wiring where I can. For ignition timing I'll need a new loom anyway, as M20s used a single ignition coil and distrubtor running off the cam. I'll keep this initially for simplicity.
 
+See https://wiki.speeduino.com/en/boards/V04 for Speeduino pins.
 
 
 For the Motronic pins see  https://www.e30zone.net/e30wiki/index.php?title=ECU_Pinouts#Motronic_1.3
 
 
-For comparison, see the megasquirt map here For the megasquirt map see https://www.e30zone.net/e30wiki/index.php?title=Megasquirting_Your_M20
+For comparison, see the megasquirt map here for the Megasquirt map see https://www.e30zone.net/e30wiki/index.php?title=Megasquirting_Your_M20
 
 
 # Pin assignments
@@ -36,7 +37,8 @@ E36 TPS Pin - E30 Pin - Purpose - Motronic pin - Speeduino Pin - IDC Pin
 - 1 - 2 - GND - 14 - 12 - 18
 - 2 - 1 - Signal - 52 - 22 - 3
 - 3 - 3 - Vref (5v) 53 - 13 - 16
-# Other motroinic pins
+
+# Other motronic pins
 
 - 18 - Constant 12V from Battery - 12v positive
 - 19 - Main ground - 12v negative
