@@ -32,7 +32,9 @@ So you see here the map for my Motronic 1.3 harness ECU pin, to Speeduino pin, f
 - 17 - Injectors 2,4,6 - 4 - Injector 3 Pin 2/2 - Injector 4 - 34
 - 22 - Idle out - 36 - PWM Idle 2 - 31
 - 26 - AFM Common ground - 9 - Ground - IAT  / CLT Ground / TPS Gnd - 24
+- 27 - Start input- to ignition switch and coil from OBC (12v I think) - NA - Needs to go to a new relay in the ECU
 - 28 - O2 input - 21 - O2 Sensor - 1
+- 37 - Switched power from main relay - NA - Speeduino power +ve in - NA
 - 44 - AFM air inlet temp pin 1 - 20 - Inlet Air Temp (IAT) - 2
 - 45 - Coolant Temp input - 1 - Injector 1 Pin 1/2 - Injector 1 - 40
 - 45 - Coolant Temp input - 40 - Injector 1 Pin 2/2 - Injector 6 - 39
@@ -57,8 +59,15 @@ E36 TPS Pin - E30 Pin - Purpose - Motronic pin - Speeduino Pin - IDC Pin
 
 # Other motronic pins
 
-- 18 - Constant 12V from Battery - 12v positive
+- 18 - Constant 12V from Battery - 12v positive (temporary power but will become unused)
 - 19 - Main ground - 12v negative
+- 27 - Start input - Needs to go to a new relay in the ECU
+- 37 - Speeduino power
+
+# Main relay control
+
+See https://www.r3vlimited.com/board/forum/e30-technical-forums/engine-drivetrain/m20/338232-m20b25-fuel-pump-wiring
+- When 12v comes from pin 27, a new relay needs to grund pin 36. This will activate the main relay switching on power to pin 37, powering up the Speeduino
 
 # Lambda
 - Black - Signal - ECU Loom pin 28
