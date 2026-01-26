@@ -18,21 +18,19 @@ So you see here the map for my Motronic 1.3 harness ECU pin, to Speeduino pin, f
 - Motronic pin  - Description - Speeduino Pin - Speeduino description - {Purpose} - IDC Pin
 - 1 - Ignition Coil Output (Channel 1 - 1.1) - 7 | Ignition 1 
 - 2 - Ground - N/A - ECU Power relay ground, pin 30
-- 3 - Fuel Pump Relay Control - N/A - ECU fuel pump relay 87
+- 3 - Fuel Pump Relay Control - 16 - Fuel pump - 10
 - 4 - Idle out - 37 - PWM Idle - 33
 - 5 - NA
 - 6 - Tachometer output - 17 - Proto Area 4 (0.4.4b+ Tachometer) 
 - 7 - AFM input pin 2 - 19 - Coolant (CLT) - 4
-- 8 - Cam Hall Sensor Signal In - NA
 - 10 - Oxygen sensor (ground) - 10 - Ground - 22
 - 14 - Injector gnd (???) - 12 - Ground - 18
 - 16 - Injectors 1,3,5 - 2 - Injector 2 Pin 1/2 - Injector 2 - 38
 - 16 - Injectors 1,3,5 - 39 - Injector 2 Pin 2/2 - Injector 5 - 37
 - 17 - Injectors 2,4,6 - 3 - Injector 3 Pin 1/2 - Injector 3 - 36
 - 17 - Injectors 2,4,6 - 4 - Injector 3 Pin 2/2 - Injector 4 - 34
-- 19 - Main gound - ECU Power relay 85 & ECU Fuel relay 85 & speeduino power -ve
+- 19 - Main gound - ECU Power relay 85 & speeduino power -ve
 - 22 - Idle out - 36 - PWM Idle 2 - 31
-- 24 - Ground - N/A - ECU Fuel relay pin 30
 - 26 - AFM Common ground - 9 - Ground - IAT  / CLT Ground / TPS Gnd - 24
 - 27 - Start input- to ignition switch and coil - N/A - ECU Power relay pin 86
 - 28 - O2 input - 21 - O2 Sensor - 1
@@ -71,7 +69,7 @@ E36 TPS Pin - E30 Pin - Purpose - Motronic pin - Speeduino Pin - IDC Pin
 
 # ECU Relays
 
-There are 2 relays for the speeduino (nothing special just Halfords).
+There is a relay for the speeduino (nothing special just Halfords).
 
 ## ECU Power relay 
 
@@ -84,14 +82,6 @@ When 12v comes from pin 27, a new relay needs to ground pin 36. This will activa
 - 36 - 87
 - 2 - 30 - Motronic 2 (gnd)
 
-## ECU Fuel pump relay
-Pin 16 on the speeduino is the fuel pump signal. It needs to connect to a relay in order to ground pin 3 on the Motronic harness, to activate the fuel pump relay.
-
-- ECU Pin - Relay pin - Destination / Description
-- N/A - 86 - Speeduino pin 16 (IDC 10)
-- 19 - 85 - Motronic 19 (main gnd)
-- 3 - 87 - Ground for the fuel pump relay in the engine bay (to activate both fuel pumps)
-- 24 - 30 - Motronic 24 (gnd)
 
 
 # Lambda
