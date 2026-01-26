@@ -6,6 +6,9 @@ Assortment of docs and diagrams for the race car ECU & dashboard conversion and 
 # Motronic 1.3 harness <-> Speeduino pin assignment 
 See [motronic-speeduino-map.md](motronic-speeduino-map.md)
 
+# Amazing Motronic 1.3 walkthrough
+https://forums.pelicanparts.com/bmw-5-series-e28-e34-e39-e60-f10-gt/534490-motronic-1-1-1-3-details.html
+
 # Speeduino pins - ON HOLD (using a stock Motronic harness for now to reduce risk)
 See [speeduino-pins.md](speeduino-pins.md)
 
