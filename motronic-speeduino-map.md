@@ -31,7 +31,7 @@ So you see here the map for my Motronic 1.3 harness ECU pin, to Speeduino pin, f
 - 17 - Injectors 2,4,6 - 4 - Injector 3 Pin 2/2 - Injector 4 - 34
 - 19 - Main gound - ECU Power relay 85 & speeduino power -ve
 - 22 - Idle out - 36 - PWM Idle 2 - 31
-- 26 - AFM Common ground - 9 - Ground - IAT  / CLT Ground / TPS Gnd - 24
+- 26 - AFM Common ground - 9 - Ground - IAT  / CLT Ground  - 24
 - 27 - Start input- to ignition switch and coil - N/A - ECU Power relay pin 86
 - 28 - O2 input - 21 - O2 Sensor - 1
 - 36 - Main relay output - N/A - ECU Power relay pin 87
@@ -54,7 +54,7 @@ So you see here the map for my Motronic 1.3 harness ECU pin, to Speeduino pin, f
 # TPS
 
 E36 TPS Pin - E30 Pin - Purpose - Motronic pin - Speeduino Pin - IDC Pin
-- 1 - 2 - GND - 26 VIA NEW CABLE TO REPURPOSED AFM PLUG - 9
+- 1 - 2 - GND - N/A
 - 2 - 1 - Signal - 52 - 22 - 3
 - 3 - 3 - Vref (5v) 53 - 13 - 16
 
