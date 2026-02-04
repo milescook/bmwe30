@@ -18,7 +18,7 @@ So you see here the map for my Motronic 1.3 harness ECU pin, to Speeduino pin, f
 - Motronic pin  - Description - Speeduino Pin - Speeduino description - {Purpose} - IDC Pin
 - 1 - Ignition Coil Output (Channel 1 - 1.1) - 7 | Ignition 1 
 - 2 - Ground - N/A - ECU Power relay ground, pin 30
-- 3 - Fuel Pump Relay Control - 38 - VVT (swap from 16 fuel pump as I have no ULN chip) - 35
+- 3 - Fuel Pump Relay Control - 38 - Boost control (swap from 16 fuel pump as I have no ULN chip) - 35
 - 4 - Idle out - 37 - PWM Idle - 33
 - 5 - NA
 - 6 - Tachometer output - 17 - Proto Area 4 (0.4.4b+ Tachometer) 
@@ -49,7 +49,7 @@ So you see here the map for my Motronic 1.3 harness ECU pin, to Speeduino pin, f
 - 1 - 44 - Inlet Air Temp (IAT) - 20
 - 2 - 7 - Coolant (CLT) - 19
 - 3 - 12 - Unused
-- 4 - 26 - IAT / CLT Ground / TPS Gnd - 9
+- 4 - 26 - IAT / CLT Ground - 9
 
 # TPS
 

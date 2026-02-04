@@ -10,7 +10,9 @@ https://www.e30zone.net/e30wiki/images/b/b2/Instrument_Cluster.pdf
 - 18 Oil GND 
 - 23 Live 12v
 
-
+# Diagrams
+![Plug](dash-blue-port-pins.png)
+![Plug](dash-blue-plug-pins.png)
 
 ## C2 (White)
 26 Pins
