@@ -16,7 +16,7 @@ For comparison, see the megasquirt map here for the Megasquirt map see https://w
 So you see here the map for my Motronic 1.3 harness ECU pin, to Speeduino pin, followed lastly by IDC pin. IDC is the dupont ribbon connector https://thepihut.com/products/raspberry-pi-40-pin-gpio-socket-connector-to-labelled-pins-female-150mm I have going to the Speeduino which handily labels all it's wires. Took me a while to realise that the numbers labelled have no correlation to the speeduino pins... ah well. I did make a handy map [idc-numberedpins.md](idc-numberedpins.md)
 
 - Motronic pin  - Description - Speeduino Pin - Speeduino description - {Purpose} - IDC Pin
-- 1 - Ignition Coil Output (Channel 1 - 1.1) - 7 | Ignition 1 
+- 1 - Ignition Coil Output (Channel 1 - 1.1) - 7 | Ignition 1 | 28
 - 2 - Ground - N/A - ECU Power relay ground, pin 30
 - 3 - Fuel Pump Relay Control - 38 - Boost control (swap from 16 fuel pump as I have no ULN chip) - 35
 - 4 - Idle out - 37 - PWM Idle - 33
