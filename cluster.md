@@ -5,9 +5,12 @@ https://www.e30zone.net/e30wiki/images/b/b2/Instrument_Cluster.pdf
 ## C1 (Blue)
 26 Pins
 
+- 4 Check light (now Speeduino USB serial date +ve from Motronic pin 15)
+- 11 Fuel flow rate (now Speeduino USB serial date -ve from Motronic pin 32)
 - 14 Alternator light +
 - 16 Instrument lights -
 - 18 Oil GND 
+- 20 GND
 - 23 Live 12v
 
 # Diagrams

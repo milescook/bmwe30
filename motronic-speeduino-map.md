@@ -21,19 +21,22 @@ So you see here the map for my Motronic 1.3 harness ECU pin, to Speeduino pin, f
 - 3 - Fuel Pump Relay Control - 38 - Boost control (swap from 16 fuel pump as I have no ULN chip) - 35
 - 4 - Idle out - 37 - PWM Idle - 33
 - 5 - NA
-- 6 - Tachometer output - 17 - Proto Area 4 (0.4.4b+ Tachometer) 
+- 6 - Tachometer output - 17 - Proto Area 4 (0.4.4b+ Tachometer) - Re-purpose USB serial +ve????
 - 7 - AFM input pin 2 - 19 - Coolant (CLT) - 4
 - 10 - Oxygen sensor (ground) - 10 - Ground - 22
 - 14 - Injector gnd (???) - 12 - Ground - 18
+- 15 - Check light - N/A - Speeduino USB Serial date +ve (via dash plug) C1 plug pin 4
 - 16 - Injectors 1,3,5 - 2 - Injector 2 Pin 1/2 - Injector 2 - 38
 - 16 - Injectors 1,3,5 - 39 - Injector 2 Pin 2/2 - Injector 5 - 37
 - 17 - Injectors 2,4,6 - 3 - Injector 3 Pin 1/2 - Injector 3 - 36
 - 17 - Injectors 2,4,6 - 4 - Injector 3 Pin 2/2 - Injector 4 - 34
 - 19 - Main gound - ECU Power relay 85 & speeduino power -ve
 - 22 - Idle out - 36 - PWM Idle 2 - 31
+- 24 - Ground - 23 - Ground - 5
 - 26 - AFM Common ground - 9 - Ground - IAT  / CLT Ground  - 24
 - 27 - Start input- to ignition switch and coil - N/A - ECU Power relay pin 86
 - 28 - O2 input - 21 - O2 Sensor - 1
+- 32 - Econometer - N/A - Speeduino USB Serial date -ve (via dash plug) C1 plug pin 11
 - 36 - Main relay output - N/A - ECU Power relay pin 87
 - 37 - Switched power from main relay - NA - Speeduino power +ve in - NA
 - 44 - AFM air inlet temp pin 1 - 20 - Inlet Air Temp (IAT) - 2
@@ -82,7 +85,14 @@ When 12v comes from pin 27, a new relay needs to ground pin 36. This will activa
 - 36 - 87
 - 2 - 30 - Motronic 2 (gnd)
 
+# Ignition control module
+| Module pin | Purpose | Wire colour | Destination
+| 1 | Coil negative | Blue | Coil black
+| 2 | Module ground | Black | Chassis ground
+| 4 | Ignition positive | Red | Switched live |
+| 5 | Pulse generator Input Signal | Green | Ignition Coil Green wire (ground) | 
 
+Careful - on the ignition module green and blue wires are swapped to the speeduino diagram
 
 # Lambda
 - Black - Signal - ECU Loom pin 28
@@ -130,6 +140,5 @@ When 12v comes from pin 27, a new relay needs to ground pin 36. This will activa
 - 5 - NA - DME relay (live for Fuel Injectors)
 - 6 - 16 - Fuel Injectors 1, 3, 5
 - 7 - 17 - Fuel Injectors 2, 4, 6
-
 
 
