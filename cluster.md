@@ -5,8 +5,8 @@ https://www.e30zone.net/e30wiki/images/b/b2/Instrument_Cluster.pdf
 ## C1 (Blue)
 26 Pins
 
-- 7 Tachometer (now Speeduino USB serial date +ve from Motronic pin 6)
-- 11 Fuel flow rate (now Speeduino USB serial date -ve from Motronic pin 32)
+- 7 Tachometer (now Speeduino USB serial date TX from Motronic pin 6) to Pi 10 RX
+- 11 Fuel flow rate (now Speeduino USB serial date RX from Motronic pin 32) to Pi 8 TX
 - 14 Alternator light +
 - 16 Instrument lights -
 - 18 Oil GND 

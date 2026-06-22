@@ -21,7 +21,7 @@ So you see here the map for my Motronic 1.3 harness ECU pin, to Speeduino pin, f
 - 3 - Fuel Pump Relay Control - 38 - Boost control (swap from 16 fuel pump as I have no ULN chip) - 35
 - 4 - Idle out - 37 - PWM Idle - 33
 - 5 - NA
-- 6 - Tachometer output - N/A (Arduino pin 0) - Speeduino USB Serial data TX (via dash plug) C1 plug pin 7
+- 6 - Tachometer output - N/A (Arduino pin 0) - Speeduino USB Serial data TX (via dash plug) C1 plug pin 7 (Pi RX)
 - 7 - AFM input pin 2 - 19 - Coolant (CLT) - 4
 - 10 - Oxygen sensor (ground) - 10 - Ground - 22
 - 14 - Injector gnd (???) - 12 - Ground - 18
@@ -35,7 +35,7 @@ So you see here the map for my Motronic 1.3 harness ECU pin, to Speeduino pin, f
 - 26 - AFM Common ground - 9 - Ground - IAT  / CLT Ground  - 24
 - 27 - Start input- to ignition switch and coil - N/A - ECU Power relay pin 86
 - 28 - O2 input - 21 - O2 Sensor - 1
-- 32 - Econometer - N/A (Arduino pin 1) - Speeduino USB Serial data RX (via dash plug) C1 plug pin 11
+- 32 - Econometer - N/A (Arduino pin 1) - Speeduino USB Serial data RX (via dash plug) C1 plug pin 11 (Pi TX)
 - 36 - Main relay output - N/A - ECU Power relay pin 87
 - 37 - Switched power from main relay - NA - Speeduino power +ve in - NA
 - 44 - AFM air inlet temp pin 1 - 20 - Inlet Air Temp (IAT) - 2
