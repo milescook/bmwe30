@@ -12,6 +12,7 @@ You can find a load of shorts and videos on progress here [https://www.youtube.c
 These are the key items though take a look through the file list for bits and bobs. There's an initial stab at a custom harness for example.
 
 - [Motronic pins to Speeduino map](motronic-speeduino-map.md)
+- [Cluster COnversion](cluster.md)
 - [Useful links](links.md)
 
 
