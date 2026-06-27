@@ -7,10 +7,11 @@ The motronic ECU turns on the relay in the engione pay which in turn powers up m
 ![Main Relay](../images/relay.png)
 
 
-## ECU Power relay 
+## How it works
 
-See https://www.r3vlimited.com/board/forum/e30-technical-forums/engine-drivetrain/m20/338232-m20b25-fuel-pump-wiring
-When 12v comes from pin 27, a new relay needs to ground pin 36. This will activate the main relay switching on power to pin 37, powering up the Speeduino
+When ignition is powered on (before cranking), 12v comes from pin motronic 27. This goes to pin 86 on our relay, which in turn grounds motronic pin 36, like the original ECU. This activates the main relay (in the engine bay). This in turn switches on power to motronic pin 37, which is where the speedunio live gets power from (not 27). 
+
+It may seem a bit of a roundabout way to power the speeduino... But remmber: we're powering up the car from the relay under the bonnet, and the speeduino is simply on this main circuit. It also means if your injectors and coil have no power then neither does the speeduino, so less potential troubleshooting headaches.
 
 - ECU Pin - Relay pin - Destination / Description
 - 27 - 86 - Ignition on 12v
