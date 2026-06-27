@@ -17,8 +17,9 @@ These are the key items though take a look through the file list for bits and bo
 
 - [Motronic pins to Speeduino map](docs/motronic-speeduino-map.md)
 - [Cluster Conversion](docs/cluster.md)
-- [Useful links](docs/links.md)
 - [Ignition module](docs/ignition.md)
 - [Intake](docs/intake.md)
+- [Main relay](docs/mainrelay.md)
+- [Useful links](docs/links.md)
 
 

@@ -15,5 +15,6 @@ M20 AFM uses an outdated method of measure air intake - a physical door which me
 AFM intake hose od 6.7cm
 
 ## Intake adapter
+There is an stl for this in stls folder.
 
 ![Intake Adapter](../images/intakeadapter.png)
