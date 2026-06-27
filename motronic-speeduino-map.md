@@ -84,14 +84,7 @@ When 12v comes from pin 27, a new relay needs to ground pin 36. This will activa
 - 36 - 87
 - 2 - 30 - Motronic 2 (gnd)
 
-# Ignition control module
-| Module pin | Purpose | Wire colour | Destination
-| 1 | Coil negative | Blue | Coil black
-| 2 | Module ground | Black | Chassis ground
-| 4 | Ignition positive | Red | Switched live |
-| 5 | Pulse generator Input Signal | Green | Ignition Coil Green wire (ground) | 
 
-Careful - on the ignition module green and blue wires are swapped to the speeduino diagram
 
 # Lambda
 - Black - Signal - ECU Loom pin 28
