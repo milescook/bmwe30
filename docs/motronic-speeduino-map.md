@@ -80,28 +80,6 @@ E36 TPS Pin - E30 Pin - Purpose - Motronic pin - Speeduino Pin - IDC Pin
 - black to gray
 - yellow to black
 
-# Injectors connector
-- Speeduino pin - Speeduino pin description - Description - ECU Pin
-- 1 - Injector 1 - Pin 1/2 - Injector 1 - 45
-- 2 - Injector 2 - Pin 1/2 - Injector 2 - 16
-- 3 - Injector 3 - Pin 1/2 - Injector 3 - 17
-- 4 - Injector 3 - Pin 2/2 - Injector 4 - 17
-- 39 - Injector 2 - Pin 2/2 - Injector 5 - 16
-- 40 - Injector 1 - Pin 2/2 - Injector 6 - 45
-
-
-# New injector subloom C191 plug
-
-![C191 Plug diagram from E30 Zone](https://www.e30zone.net/e30wiki/images/6/60/C191.jpg)
-
-- C191 plug pin no | ECU Pin | description
-- 1 - 45 - Fuel Injectors 1 & 6
-- 2 - Unused Gnd
-- 3 - Unused Gnd
-- 4 - Unused goes to clocks
-- 5 - NA - DME relay (live for Fuel Injectors)
-- 6 - 16 - Fuel Injectors 2 & 5
-- 7 - 17 - Fuel Injectors 3 & 4
 
 
 # FOR REFERENCE: Original injector subloom wiring C191 plug

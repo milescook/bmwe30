@@ -56,5 +56,3 @@ Running M5x TPS on E30 harness
 2 = BR/BU(52) - Sig
 3 = BR/BK(53) - vRef
 
-# Injector subloom
-You can't use the existing E30 M20 injector wiring, because Motronic 1.3 firs in 2 batches of 3. Speeduino doesn't support this, and has 4 injector channels so you have to run it in paired mode, 3 pairs of 2. So instead of re-wiring the injector loom I bought this excellent depin tool (the service was fantastic) from https://falkmfg.com/products/depin-tool and made a replacement.

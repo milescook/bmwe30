@@ -7,7 +7,7 @@ Disclaimer: Anything you follow here you do at your own risk etc.
 ![Motronic Speeduino](images/motronic-speeduino.png)
 
 ## Wiring
-The only wiring modification needed so far, is a replacement injector sub-loom (later harnesses use a sub loom with a connector - see links for depin tool), and the TPS wires either needs an adapter or re-wire to work with an E36 variable TPS. I also converted the AFM plug to a generic connector though you could always make an adapter.
+The only wiring modification needed so far, is a replacement injector sub-loom (later harnesses use a sub loom with a connector - see injector wiring for depin tool), and the TPS wires either needs an adapter or re-wire to work with an E36 variable TPS. I also converted the AFM plug to a generic connector though you could always make an adapter.
 
 You can find a load of shorts and videos on progress here [https://www.youtube.com/cookracinguk](https://www.youtube.com/cookracinguk)
 
@@ -19,6 +19,7 @@ These are the key items though take a look through the file list for bits and bo
 - [Cluster Conversion](docs/cluster.md)
 - [Ignition module](docs/ignition.md)
 - [Intake](docs/intake.md)
+- [Injector wiring](docs/injector-wiring)
 - [Main relay](docs/mainrelay.md)
 - [Useful links](docs/links.md)
 
