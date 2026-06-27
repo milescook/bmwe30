@@ -16,4 +16,4 @@ AFM intake hose od 6.7cm
 
 ## Intake adapter
 
-![Intake Adapter](images/intakeadapter.png)
+![Intake Adapter](../images/intakeadapter.png)

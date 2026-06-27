@@ -12,7 +12,7 @@ https://forums.pelicanparts.com/bmw-5-series-e28-e34-e39-e60-f10-gt/534490-motro
 See [speeduino-pins.md](speeduino-pins.md)
 
 # New ECU Loom wiring - ON HOLD (using a stock Motronic harness for now to reduce risk)
-See [ecu-pinout.md](ecu-pinout.md)
+See [ecu-pinout.md](new-harness-plans/ecu-pinout.md)
 
 # Good resource
 See https://github.com/EFI-Customs/Motronic-1.3-Speeduino-Compatible-Project?tab=readme-ov-file
