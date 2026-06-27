@@ -27,11 +27,6 @@ There is an stl file for the connector in the stls folder. Basically it looks li
 - 20 GND
 - 23 Live 12v
 
-# Diagrams
-![Plug](../images/dash-blue-port-pins.png)
-![Plug](../images/dash-blue-plug-pins.png)
-
-
 
 ## C2 (White)
 26 Pins
@@ -40,3 +35,7 @@ There is an stl file for the connector in the stls folder. Basically it looks li
 - 5 Fuel tank sender gnd
 - 8 Speed sensor
 - 13 Speed sensor
+
+## Diagrams
+![Plug](../images/dash-blue-port-pins.png)
+![Plug](../images/dash-blue-plug-pins.png)
