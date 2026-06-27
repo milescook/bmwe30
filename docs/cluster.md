@@ -16,13 +16,17 @@ https://www.e30zone.net/e30wiki/images/b/b2/Instrument_Cluster.pdf
 
 There is an stl file for the connector (tested with blue) in the stls folder. Basically it looks like below and the blue connector fits perfectly. The pins themselves are just bent dupont connectors fixed in place with a hot glue gun. Seems to work. At time of writing, more work is needed to get the locking tab to do it's job, but it certainly isn't loose.
 
+Direct serial over the dash connectors is a non starter as pi uses 3.3v arduino uses 5v. If I can find another connection I can go via the usb plugs but can only find 3 ECU pinouts / Dash connectors
+
 ![Cluster](../images/clusterconnector.png)
+
+
 
 ## C1 (Blue)
 26 Pins
 
-- 7 Tachometer (now Speeduino USB serial date TX from Motronic pin 6) to Pi 10 RX - Orange
-- 11 Fuel flow rate (now Speeduino USB serial date RX from Motronic pin 32) to Pi 8 TX - Yellow
+- 7 Tachometer ~~(now Speeduino USB serial date TX from Motronic pin 6) to Pi 10 RX - Orange~~
+- 11 Fuel flow rate ~~(now Speeduino USB serial date RX from Motronic pin 32) to Pi 8 TX - Yellow~~
 - 14 Alternator light +
 - 16 Alternator lights -
 - 18 Oil  
@@ -37,6 +41,7 @@ There is an stl file for the connector (tested with blue) in the stls folder. Ba
 - 5 Fuel tank sender gnd
 - 8 Speed sensor
 - 13 Speed sensor
+- 22 Check Light ~~(now Speeduino USB GND from Motronic pin 16) to Pi~~
 
 ## Diagrams
 ![Plug](../images/dash-blue-port-pins.png)
