@@ -1,4 +1,15 @@
-# Injectors connector
+
+# Injectors
+
+Basically, this wiring needs a change. You can't use the existing E30 M20 injector wiring, because Motronic 1.3 fires in 2 batches of 3. Speeduino doesn't support this, and has 4 injector channels so you have to run it in paired mode, 3 pairs of 2. 
+
+So instead of re-wiring the injector loom, I bought this excellent depin tool (the service was fantastic) and some wiring connectors, from https://falkmfg.com/products/depin-tool so I could re-use the existing plug and make a replacement sub loom.
+
+![Injector subloom](../images/injectorsubloom.png)
+
+
+
+## Injectors connector
 - Speeduino pin - Speeduino pin description - Description - ECU Pin
 - 1 - Injector 1 - Pin 1/2 - Injector 1 - 45
 - 2 - Injector 2 - Pin 1/2 - Injector 2 - 16
@@ -8,7 +19,7 @@
 - 40 - Injector 1 - Pin 2/2 - Injector 6 - 45
 
 
-# New injector subloom C191 plug
+## New injector subloom C191 plug wiring
 
 ![C191 Plug diagram from E30 Zone](https://www.e30zone.net/e30wiki/images/6/60/C191.jpg)
 
@@ -21,6 +32,3 @@
 - 6 - 16 - Fuel Injectors 2 & 5
 - 7 - 17 - Fuel Injectors 3 & 4
 
-
-# Injector subloom
-You can't use the existing E30 M20 injector wiring, because Motronic 1.3 firs in 2 batches of 3. Speeduino doesn't support this, and has 4 injector channels so you have to run it in paired mode, 3 pairs of 2. So instead of re-wiring the injector loom I bought this excellent depin tool (the service was fantastic) from https://falkmfg.com/products/depin-tool and made a replacement.
