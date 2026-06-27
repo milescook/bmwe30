@@ -1,10 +1,11 @@
 # ECU Relays
 
-There is a relay to power the speeduino (nothing special just one from Halfords). The reason we do this is to work with the E30 main relay system. 
-
-The motronic ECU turns on the relay in the engione pay which in turn powers up most of the car (injectors, coil, ICV etc.). WIth this setup we're getting our ECU to do the same.
+We use a relay here - nothing special just one from Halfords. The reason we do this is to work with the perfectly good E30 main relay system.
 
 ![Main Relay](../images/relay.png)
+
+The motronic ECU turns on the relay in the engine pay which in turn powers up most of the car (injectors, coil, ICV etc.). WIth this setup we're getting our ECU to do the same.
+
 
 
 ## How it works
