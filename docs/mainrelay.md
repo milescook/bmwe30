@@ -4,7 +4,7 @@ We use a relay here - nothing special just one from Halfords. The reason we do t
 
 ![Main Relay](../images/relay.png)
 
-The motronic ECU turns on the relay in the engine pay which in turn powers up most of the car (injectors, coil, ICV etc.). WIth this setup we're getting our ECU to do the same.
+The motronic ECU when it gets power on pin 27, turns on the relay in the engine bay which in turn powers up most of the car (injectors, coil, ICV etc.). With this setup we're getting our ECU to do the same.
 
 
 
