@@ -4,7 +4,7 @@ This repo is a collection of diagrams, wiring plans and 3d printable models. The
 
 Disclaimer: Anything you follow here you do at your own risk etc.
 
-![Motronic Speeduino](motronic-speeduino.png)
+![Motronic Speeduino](images/motronic-speeduino.png)
 
 ## Wiring
 The only wiring modification needed so far, is a replacement injector sub-loom (later harnesses use a sub loom with a connector - see links for depin tool), and the TPS wires either needs an adapter or re-wire to work with an E36 variable TPS. I also converted the AFM plug to a generic connector though you could always make an adapter.

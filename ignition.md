@@ -4,13 +4,13 @@ Don't make the mistake I did. Speeduino can trigger ignition either sending sign
 
 Turns out the ignition coil is leaking live back through this (motronic 1.3 pin #1) and confuses the hell out of speeduino, so it doesn't fire. Therefore, I use a Bosch 124 ignition module.
 
-![Bosch 124](bosch124.png)
-![Bosch 124 wiring](bosch124-wiring.png)
+![Bosch 124](images/bosch124.png)
+![Bosch 124 wiring](images/bosch124-wiring.png)
 
 
 **Careful!** The wiring colours in this diagram don't correspond to my own, blue and green are swapped for me.
 
-![Ignition Module Wiring](igm-wiring.png)
+![Ignition Module Wiring](images/igm-wiring.png)
 
 
 ## Ignition control module wiring
@@ -25,4 +25,4 @@ Turns out the ignition coil is leaking live back through this (motronic 1.3 pin 
 ## TS Settings
 Take note of these TS settings:
 
-![Spark Settings](sparksettings.png)
+![Spark Settings](images/sparksettings.png)

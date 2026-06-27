@@ -2,7 +2,7 @@
 
 The objective here is a ts-dash (see http://tunerstudio.com/index.php/products/ts-dash) replacement for the instrument clocks, using the standard E30 wiring.
 
-![Dash](ts-dash.png)
+![Dash](images/ts-dash.png)
 
 ## Pins
 
@@ -20,8 +20,8 @@ https://www.e30zone.net/e30wiki/images/b/b2/Instrument_Cluster.pdf
 - 23 Live 12v
 
 # Diagrams
-![Plug](dash-blue-port-pins.png)
-![Plug](dash-blue-plug-pins.png)
+![Plug](images/dash-blue-port-pins.png)
+![Plug](images/dash-blue-plug-pins.png)
 
 ## C2 (White)
 26 Pins
