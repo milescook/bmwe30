@@ -46,12 +46,7 @@ So you see here the map for my Motronic 1.3 harness ECU pin, to Speeduino pin, f
 - 52 - Closed throttle - 22 - TPS Input - 3
 - 53 - WOT Input - 13 - 5V (TPS Live) - 16
 
-# AFM Plug re-purpose
-- Pin no - ECU Pin No - New purpose - Speeduino pin
-- 1 - 44 - Inlet Air Temp (IAT) - 20
-- 2 - 7 - Coolant (CLT) - 19
-- 3 - 12 - Unused
-- 4 - 26 - IAT / CLT Ground - 9
+
 
 # TPS
 

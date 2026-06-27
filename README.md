@@ -2,6 +2,8 @@
 
 This repo is a collection of diagrams, wiring plans and 3d printable models. The objective is converting a BMW E30 to use speeduino with a digital dashboard using ts-dash. This uses the original Motronic 1.3 harness to de-risk the conversion. 
 
+Disclaimer: Anything you follow here you do at your own risk etc.
+
 ![Motronic Speeduino](motronic-speeduino.png)
 
 ## Wiring
@@ -16,5 +18,6 @@ These are the key items though take a look through the file list for bits and bo
 - [Motronic pins to Speeduino map](motronic-speeduino-map.md)
 - [Cluster Conversion](cluster.md)
 - [Useful links](links.md)
+- [Ignition module](ignition.md)
 
 
